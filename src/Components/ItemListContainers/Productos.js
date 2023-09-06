@@ -15,6 +15,23 @@ const Productos = [
     categoria: "Camiseta",
     descripcion: "...",
   },
+  {
+    imgSrc: "../img/Camiseta-Argentina.jpg",
+    id: 2,
+    titulo: "Conjunto de River",
+    precio: "$31500",
+    categoria: "Conjuntos",
+    descripcion: "...",
+  },
+  ,
+  {
+    imgSrc: "../img/Camiseta-Argentina.jpg",
+    id: 2,
+    titulo: "Short seleccion",
+    precio: "$10500",
+    categoria: "Shorts",
+    descripcion: "...",
+  },
 ];
 const getAllProducts = () => {
   const promise = new Promise((resolve) => {
