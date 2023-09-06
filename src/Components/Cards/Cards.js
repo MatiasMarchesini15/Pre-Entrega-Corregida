@@ -6,8 +6,7 @@ function Cards( {info} ) {
   return (
 
       <div >
-
-     {info.imgSrc} 
+   <img src={info.imgSrc} />
       <h3>{info.titulo}</h3>   
         <div>
         <Link to= {`/Detail/${info.id}`}> Ver más </Link>

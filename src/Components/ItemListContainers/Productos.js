@@ -1,6 +1,6 @@
 const Productos = [
   {
-    imgSrc: "./public/assets/Camiseta-Argentina.jpg",
+    imgSrc: "assets/Camiseta-Argentina.jpg",
     id: 1,
     titulo: "Camiseta Argentina Titular",
     precio: "$30.000",
@@ -8,7 +8,7 @@ const Productos = [
     descripcion: "....",
   },
   {
-    imgSrc: "../img/Camiseta-Argentina.jpg",
+    imgSrc: "assets/Camiseta-Suplente-Argentina.jpg",
     id: 2,
     titulo: "Camiseta Argentina Suplente ",
     precio: "$31500",
@@ -16,7 +16,7 @@ const Productos = [
     descripcion: "...",
   },
   {
-    imgSrc: "../img/Camiseta-Argentina.jpg",
+    imgSrc: "assets/conjunto-river.avif",
     id: 2,
     titulo: "Conjunto de River",
     precio: "$31500",
@@ -25,7 +25,7 @@ const Productos = [
   },
   ,
   {
-    imgSrc: "../img/Camiseta-Argentina.jpg",
+    imgSrc: "assets/short-arg.webp",
     id: 2,
     titulo: "Short seleccion",
     precio: "$10500",
