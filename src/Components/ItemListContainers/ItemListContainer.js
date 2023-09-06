@@ -12,9 +12,9 @@ const ItemListContainer = ({greeting})=>{
       useEffect(() => {
         getAllProducts()
           .then((data) => {
-            if (CategoryId === "categoria") {
-              const productosFiltrados = data.filter((producto) =>
-                producto.categoria === "categoria" 
+            if (CategoryId) {
+              const productosFiltrados = data.filter(
+                  (producto) => producto.categoria === CategoryId
               );
               setProductos(productosFiltrados);
             } else {
